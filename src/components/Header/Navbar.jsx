@@ -3,32 +3,26 @@ import "./Navbar.css";
 
 let Navbar = () => {
   return (
-    <>
-      <nav id="navbar">
-        <div className="icon">
-          <span>Aishwary</span>
+    <div>
+      <div id="navbar">
+        <div className="name">
+          <b>Aishwary Kumar Tiwari</b>
         </div>
 
         <div className="links">
-          <ul>
-            <li>
-              <a href="">Home</a>
-            </li>
-            <li>
-              <a href="">About</a>
-            </li>
-            <li>
-              <a href="">Projects</a>
-            </li>
-            <li>
-              <a href="">Contact</a>
-            </li>
-          </ul>
+          <a href="">Home</a>
+          <a href="">About</a>
+          <a href="">Projects</a>
+          <a href="">My Skills</a>
+          <a href="">Contact</a>
         </div>
 
-        <button className="button">Download CV</button>
-      </nav>
-    </>
+        <div className="dounload">
+           <button type="button" className="btn">Download CV</button>
+        </div>
+        
+      </div>
+    </div>
   );
 }
 

@@ -1,7 +1,38 @@
 #navbar{
+    /* background-color: red; */
     display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* border: 2px solid red; */
+    height: 50px;
+    background-color: #edeef4;
+    box-shadow: #d6d7db;
+  
 }
-.links ul{
-    display: flex;
-    list-style: none;
+
+.name{
+    /* background-color: green; */
+    margin-right: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.links{
+    /* background-color: blue; */
+   
+   width: 500px;
+   display: flex;
+   justify-content: space-between;
+
+}
+
+.btn{
+    position: relative;
+    bottom: 50%;
+    height: 25px;
+    width: 100px;
+    background-color: #38384d;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px 2px rgb(86, 84, 84);
 }
