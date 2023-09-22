@@ -1,0 +1,7 @@
+#navbar{
+    display: flex;
+}
+.links ul{
+    display: flex;
+    list-style: none;
+}
