@@ -1,0 +1,20 @@
+.home{
+    margin-left: 150px;
+    display: flex;
+}
+.left h5{
+    border: 1px solid #ECEC1C;
+    background-color: #ECEC1C;
+    width: 150px;
+    height: 28px;
+    border-radius: 10px;
+    color: white;
+    /* position: absolute; */
+
+    padding: 6px 5px 2px 5px;
+}
+.hire{
+    background-color: blueviolet;
+    color: white;
+
+}
