@@ -1,23 +1,22 @@
-#navbar{
-    /* background-color: red; */
+ /* #navbar{
+
     display: flex;
     align-items: center;
     justify-content: space-around;
-    /* border: 2px solid red; */
-    height: 50px;
+  
     background-color: #edeef4;
     box-shadow: #d6d7db;
   
 }
 
 .name{
-    /* background-color: green; */
+
     margin-right: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 
 }
 .links{
-    /* background-color: blue; */
+    
    
    width: 500px;
    display: flex;
@@ -35,4 +34,136 @@
     border: none;
     border-radius: 10px;
     box-shadow: 0px 0px 2px 2px rgb(86, 84, 84);
+}  */
+
+/* ----- BASE ----- */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* ----- SMOOTH SCROLL ----- */
+html{
+    scroll-behavior: smooth;
+}
+
+/* ----- CHANGE THE SCROLL BAR DESIGN ----- */
+::-webkit-scrollbar{
+    width: 10px;
+    border-radius: 25px;
+}
+::-webkit-scrollbar-track{
+    background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb{
+    background: #ccc;
+    border-radius: 30px;
+}
+::-webkit-scrollbar-thumb:hover{
+    background: #bbb;
+}
+
+
+/* ---##-- REUSABLE CSS --##--- */
+
+/* ----- GLOBAL BUTTON DESIGN ----- */
+.btn{
+    font-weight: 500;
+    padding: 12px 20px;
+    background: #efefef;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s;
+}
+.btn>i{
+    margin-left: 10px;
+}
+.btn:hover{
+    background: rgb(30, 159, 171);
+
+    color: rgb(255, 255, 255);
+}
+
+/* ----- GLOBAL ICONS DESIGN ----- */
+i{
+    font-size: 16px;
+}
+
+/* ------- BASE -------- */
+body{
+    background:  rgb(250, 250, 250);
+}
+/* .container{
+    width: 100%;
+    position: relative;
+    overflow-x: hidden; 
+} */
+
+/* ----- NAVIGATION BAR ----- */
+nav{
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 90px;
+    line-height: 90px;
+    background: rgb(246, 242, 242);
+    padding-inline: 9vw;
+    transition: .3s;
+    z-index: 100;
+}
+.nav-logo{
+   position: relative;
+}
+.nav-name{
+    font-size: 30px;
+    font-weight: 600;
+    color: rgb(30, 159, 171);
+}
+.nav-logo span{
+    position: absolute;
+    top: -10px;
+    right: -20px;
+    font-size: 4em;
+    color: rgb(68, 68, 68);
+}
+.nav-menu, .nav_menu_list{
+    display: flex;
+}
+.nav-menu .nav_list{
+    list-style: none;
+    position: relative;
+}
+.nav-link{
+    text-decoration: none;
+    color: rgb(68, 68, 68);
+    font-weight: 500;
+    padding-inline: 15px;
+    margin-inline: 20px;
+}
+.nav-menu-btn{
+    display: none;
+}
+.nav-menu-btn i{
+    font-size: 28px;
+    cursor: pointer;
+}
+.active-link{
+    position: relative;
+    color: rgb(110, 87, 224);
+    transition: .3;
+}
+.active-link::after{
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -15px;
+    transform: translate(-50%, -50%);
+    width: 5px;
+    height: 5px;
+    background: rgb(110, 87, 224);
+    border-radius: 50%;
 }
