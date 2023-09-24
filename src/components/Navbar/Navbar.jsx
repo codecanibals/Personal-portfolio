@@ -67,7 +67,7 @@ function Navbar() {
   return (
     <nav id="header">
       <div className="nav-logo">
-        <p className="nav-name">Aishwary Kumar Tiwari</p>
+        <p className="nav-name">Aishwary</p>
         <span className='dot'>.</span>
       </div>
       <div className={`nav-menu ${menuOpen ? 'responsive' : ''}`} id="myNavMenu">
