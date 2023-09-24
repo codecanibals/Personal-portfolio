@@ -36,9 +36,22 @@ const Home = () => {
                         
                     </div>
                     <div className="featured-text-info">
-                        <p>Experienced frontend developer with a passion for creating visually stunning
-                            and user-friendly websites.
-                        </p>
+                        {/* <p>A skilled frontend artisan crafting beautiful and user-friendly web experiences.
+                        </p> */}
+
+                        <h1>
+                            <span>A</span>
+                            <span>skilled</span>
+                            <span>frontend</span>
+                            <span>artisan</span>
+                            <span>crafting</span>
+                            <span>beautiful</span>
+                            <span>and</span>
+                            <span>user-friendly</span>
+                            <span>web</span>
+                            <span>experiences.</span>
+                        </h1>
+
                     </div>
                     <div className="featured-text-btn">
                         <button className="btn blue-btn">Hire Me</button>
