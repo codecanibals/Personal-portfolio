@@ -1,0 +1,118 @@
+.about_me{
+padding: 20px 20px 20px 40px;
+}  
+.about_me_heading {
+    text-align: center;
+    margin-bottom: 80px;
+    /* margin: 20px 0px 60px 45%; */
+    /* margin-left: 45%; */
+}
+.about_me_down{
+    display: flex;
+    display: flex;
+justify-content: center;
+align-items: center
+    
+}
+.left{
+    width: 50%;
+}
+.left_content{
+   border: 1px solid #fff;
+   border-radius: 20px;
+   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    width: 600px;
+    height: 200px;
+    padding: 34px 20px 20px 20px;
+    text-align: center;
+}
+.left_content h3{
+    text-align: center;
+    margin-bottom: 15px;
+}
+.left_content button{
+    margin-left: 80%;
+    margin-top: 5px;
+    /* background: #5E5DF0; */
+    background: radial-gradient( 100% 100% at 100% 0%, #89E5FF 0%, #5468FF 100% );
+  border-radius: 999px;
+  box-shadow: #5E5DF0 0 10px 20px -10px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 24px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 8px 18px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: fit-content;
+  word-break: break-word;
+  border: 0;
+    
+}
+.right{
+    width: 50%;
+    display: flex;
+}
+.frontend{
+    margin-bottom: 25px;
+}
+
+
+
+
+
+/* .right{
+    display: flex;
+    justify-content: center;
+} */
+
+.frontend{
+    /* display: flex;; */
+    
+}
+.skill{
+                display: inline-block;
+                outline: 0;
+                border: 0;
+                cursor: pointer;
+                will-change: box-shadow,transform;
+                background: radial-gradient( 100% 100% at 100% 0%, #89E5FF 0%, #5468FF 100% );
+                box-shadow: 0px 2px 4px rgb(45 35 66 / 40%), 0px 7px 13px -3px rgb(45 35 66 / 30%), inset 0px -3px 0px rgb(58 65 111 / 50%);
+                padding: 0 32px;
+                border-radius: 6px;
+                color: #fff;
+                height: 48px;
+                margin-top: 15px;
+                margin-right: 10px;
+                font-size: 18px;
+                text-shadow: 0 1px 0 rgb(0 0 0 / 40%);
+                transition: box-shadow 0.15s ease,transform 0.15s ease;
+                
+                
+}
+
+.skill:hover {
+    box-shadow: 0px 4px 8px rgb(45 35 66 / 40%), 0px 7px 13px -3px rgb(45 35 66 / 30%), inset 0px -3px 0px #3c4fe0;
+    transform: translateY(-2px);
+}
+
+.skill:active{
+    box-shadow: inset 0px 3px 7px #3c4fe0;
+    transform: translateY(3px);
+}
+
+
+
+
+          
+
+
+
+
+

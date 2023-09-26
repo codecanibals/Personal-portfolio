@@ -1,5 +1,7 @@
 import React from 'react'
 import Typewriter from "typewriter-effect";
+import TwitterFollowButton from '../Share/Share';
+
 import './Home.css';
 
 
@@ -57,12 +59,24 @@ const Home = () => {
                         <button className="btn blue-btn">Hire Me</button>
                         <button className="btn">Download CV <i className="uil uil-file-alt"></i></button>
                     </div>
-                    <div className="social_icons">
+                    {/* <div className="social_icons">
                         <div className="icon"><i className="uil uil-instagram"></i></div>
                         <div className="icon"><i className="uil uil-linkedin-alt"></i></div>
                         <div className="icon"><i className="uil uil-twitter"></i></div>
                         <div className="icon"><i className="uil uil-github-alt"></i></div>
+                    </div> */}
+
+                    <div className="social_icons">
+                        <div>
+                        <TwitterFollowButton/>
+                        </div>
+                        
                     </div>
+
+                    
+
+
+
                 </div>
                 <div className="featured-image">
                     <div className="image">
