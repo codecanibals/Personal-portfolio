@@ -1,6 +1,6 @@
 import React from 'react'
 import Typewriter from "typewriter-effect";
-import TwitterFollowButton from '../Share/Share';
+import HeaderSocials from './HeaderSocials';
 
 import './Home.css';
 
@@ -68,7 +68,7 @@ const Home = () => {
 
                     <div className="social_icons">
                         <div>
-                        <TwitterFollowButton/>
+                         <HeaderSocials></HeaderSocials>
                         </div>
                         
                     </div>
